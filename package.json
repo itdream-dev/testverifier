@@ -11,6 +11,8 @@
     "nodeify": "./node_modules/.bin/rn-nodeify --hack --install"
   },
   "dependencies": {    
+    "lodash": "^4.17.19",
+    "node-notifier": "^8.0.1",
     "node-fetch": "^2.6.1",
     "@react-native-community/masked-view": "^0.1.10",
     "@react-navigation/bottom-tabs": "^5.1.0",
