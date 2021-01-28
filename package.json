@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "nodeify": "./node_modules/.bin/rn-nodeify --hack --install"
   },
-  "dependencies": {
+  "dependencies": {    
+    "node-fetch": "^2.6.1",
     "@react-native-community/masked-view": "^0.1.10",
     "@react-navigation/bottom-tabs": "^5.1.0",
     "@react-navigation/drawer": "^5.1.0",
@@ -70,7 +71,7 @@
     "tty-browserify": "0.0.0",
     "url": "^0.10.3",
     "util": "^0.10.4",
-    "vm-browserify": "0.0.4"
+    "vm-browserify": "0.0.4"    
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
@@ -80,7 +81,7 @@
     "eslint": "^6.8.0",
     "jest": "^26.0.1",
     "metro-react-native-babel-preset": "^0.59.0",
-    "react-test-renderer": "16.11.0",
+    "react-test-renderer": "16.11.0",    
     "rn-nodeify": "github:tradle/rn-nodeify"
   },
   "jest": {
